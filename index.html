@@ -104,6 +104,36 @@ border-radius:5px;
 
 <body>
 
+<!-- Fixed Live Clock -->
+<div id="live-clock"></div>
+
+<style>
+#live-clock{
+    position:fixed;
+    top:10px;
+    right:10px;
+    background:#007bff;
+    color:white;
+    padding:8px 12px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    z-index:9999;
+    box-shadow:0 2px 8px rgba(0,0,0,0.3);
+}
+</style>
+
+<script>
+function updateClock() {
+    const now = new Date();
+    document.getElementById("live-clock").innerHTML =
+        now.toLocaleString("en-IN");
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+</script>
+
 <header>
 <h1>GOVT JOB UPDATES</h1>
 <p>Latest Government Jobs, Admit Cards, Results & Notifications</p>
