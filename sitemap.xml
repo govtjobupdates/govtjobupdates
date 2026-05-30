@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://govtjobupdates.github.io/govtjobupdates/</loc>
@@ -11,6 +11,10 @@
 
 <url>
 <loc>https://govtjobupdates.github.io/govtjobupdates/latest-jobs.html</loc>
+</url>
+
+<url>
+<loc>https://govtjobupdates.github.io/govtjobupdates/ssc-cgl.html</loc>
 </url>
 
 <url>
