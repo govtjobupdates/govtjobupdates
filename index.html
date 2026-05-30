@@ -29,6 +29,7 @@ font-size:38px;
 }
 
 header p{
+font-size:16px;
 margin-top:5px;
 }
 
@@ -57,63 +58,74 @@ width:95%;
 margin:auto;
 }
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:15px;
+.section{
+background:white;
 margin-top:15px;
-}
-
-.box{
-background:white;
 padding:15px;
-border-top:5px solid #ff1493;
 border-radius:8px;
-box-shadow:0 0 8px rgba(0,0,0,0.1);
+box-shadow:0 0 8px rgba(0,0,0,0.15);
 }
 
-.box h2{
-color:#cc0000;
-margin-bottom:10px;
-}
-
-.box ul{
-padding-left:20px;
-}
-
-table{
-width:100%;
-border-collapse:collapse;
-background:white;
-margin-top:20px;
-}
-
-table th{
-background:#cc0000;
+.section h2{
+background:#ff1493;
 color:white;
 padding:10px;
+margin:-15px -15px 15px -15px;
 }
 
-table td{
-border:1px solid #ddd;
-padding:10px;
+.job{
+padding:10px 0;
+border-bottom:1px solid #ddd;
+}
+
+.btn{
+background:#cc0000;
+color:white;
+padding:6px 12px;
+text-decoration:none;
+border-radius:5px;
+margin-left:10px;
+font-size:13px;
+}
+
+.btn:hover{
+background:#990000;
 }
 
 footer{
-background:#990033;
+background:#222;
 color:white;
 text-align:center;
 padding:20px;
 margin-top:20px;
 }
-</style>
-</head>
 
+ul{
+list-style:none;
+}
+
+li{
+padding:8px 0;
+border-bottom:1px solid #eee;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:28px;
+}
+nav a{
+display:inline-block;
+margin:5px;
+}
+}
+</style>
+
+</head>
 <body>
 
 <header>
 <h1>GOVT JOB UPDATES</h1>
-<p>Latest Government Jobs, Admit Cards, Results & Answer Keys</p>
+<p>Latest Government Jobs, Admit Cards, Results & Notifications</p>
 </header>
 
 <nav>
@@ -127,69 +139,65 @@ margin-top:20px;
 </nav>
 
 <div class="notice">
-🔥 Welcome to Govt Job Updates - Daily Job Notifications & Exam Updates
+🔥 Welcome to Govt Job Updates | Daily Sarkari Job Updates
 </div>
 
 <div class="container">
 
-<div class="grid">
-
-<div class="box">
+<div class="section">
 <h2>Latest Jobs</h2>
-<ul>
-<li>SSC CGL Recruitment 2026</li>
-<li>SSC Stenographer 2026</li>
-<li>Railway Group D Vacancy</li>
-<li>Bihar Police Recruitment</li>
-</ul>
+
+<div class="job">
+SSC CGL Recruitment 2026
+<a href="https://ssc.gov.in" target="_blank" class="btn">Apply Now</a>
 </div>
 
-<div class="box">
+<div class="job">
+Railway ALP Vacancy 2026
+<a href="#" class="btn">Apply Now</a>
+</div>
+
+<div class="job">
+Bihar Police Recruitment 2026
+<a href="#" class="btn">Apply Now</a>
+</div>
+
+<div class="job">
+UPSC Civil Services 2026
+<a href="#" class="btn">Apply Now</a>
+</div>
+
+</div>
+
+<div class="section">
 <h2>Admit Card</h2>
+
 <ul>
-<li>SSC Steno Admit Card</li>
-<li>BPSC Admit Card</li>
-<li>Railway Admit Card</li>
+<li>SSC Steno Admit Card <a href="#" class="btn">Click Here</a></li>
+<li>Railway Admit Card <a href="#" class="btn">Click Here</a></li>
+<li>BPSC Admit Card <a href="#" class="btn">Click Here</a></li>
+<li>Bihar DEO Admit Card <a href="#" class="btn">Click Here</a></li>
 </ul>
+
 </div>
 
-<div class="box">
+<div class="section">
 <h2>Results</h2>
+
 <ul>
-<li>Bihar Vidhan Parishad Result</li>
-<li>SSC Result</li>
-<li>Railway Result</li>
+<li>SSC Result 2026 <a href="#" class="btn">Click Here</a></li>
+<li>Railway Result <a href="#" class="btn">Click Here</a></li>
+<li>Bihar Board Result <a href="#" class="btn">Click Here</a></li>
+<li>Bihar Vidhan Parishad Result <a href="#" class="btn">Click Here</a></li>
 </ul>
-</div>
 
 </div>
-
-<table>
-<tr>
-<th>Important Dates</th>
-<th>Application Fee</th>
-</tr>
-
-<tr>
-<td>
-Online Start Date: Coming Soon<br>
-Last Date: Update Soon<br>
-Exam Date: Notify Later
-</td>
-
-<td>
-General/OBC: ₹100<br>
-SC/ST: ₹0<br>
-Payment Mode: Online
-</td>
-</tr>
-</table>
 
 </div>
 
 <footer>
-© 2026 Govt Job Updates | All Rights Reserved<br>
-Private Information Website - Not Associated With Any Government Organization
+© 2026 GOVT JOB UPDATES <br>
+This is a private information website and is not associated with any Government organization.
 </footer>
 
 </body>
