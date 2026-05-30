@@ -1,46 +1,23 @@
-<div class="main-grid">
-
-<div class="box">
-<h2>Results</h2>
-<ul>
-<li><a href="#">SSC CGL Result 2026</a></li>
-<li><a href="#">Railway ALP Result</a></li>
-<li><a href="#">Bihar Police Result</a></li>
-<li><a href="#">BPSC Result</a></li>
-<li><a href="#">SSC Steno Result</a></li>
-</ul>
-</div>
-
-<div class="box">
-<h2>Admit Card</h2>
-<ul>
-<li><a href="#">SSC CGL Admit Card</a></li>
-<li><a href="#">SSC Steno Admit Card</a></li>
-<li><a href="#">Railway Admit Card</a></li>
-<li><a href="#">BPSC Admit Card</a></li>
-<li><a href="#">Bihar Police Admit Card</a></li>
-</ul>
-</div>
-
-<div class="box">
-<h2>Latest Jobs</h2>
-<ul>
-<li><a href="ssc-cgl.html">SSC CGL Recruitment 2026</a></li>
-<li><a href="ssc-steno.html">SSC Stenographer 2026</a></li>
-<li><a href="#">RRB ALP Recruitment</a></li>
-<li><a href="#">BPSC Teacher Vacancy</a></li>
-<li><a href="#">UP Police Recruitment</a></li>
-</ul>
-</div>
-
-</div>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Govt Job Updates</title>
 
+<meta name="google-site-verification" content="rIrbOqRLVF_MsLAuQdp3YInf0KD4ZEET2WhshGc4mYw" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C29TSESG8V"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C29TSESG8V');
+</script>
+
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -61,11 +38,6 @@ padding:25px;
 
 header h1{
 font-size:38px;
-}
-
-header p{
-font-size:16px;
-margin-top:5px;
 }
 
 nav{
@@ -91,40 +63,42 @@ font-weight:bold;
 .container{
 width:95%;
 margin:auto;
-}
-
-.section{
-background:white;
 margin-top:15px;
-padding:15px;
-border-radius:8px;
-box-shadow:0 0 8px rgba(0,0,0,0.15);
 }
 
-.section h2{
-background:#ff1493;
+.main-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+}
+
+.box{
+background:white;
+border:2px solid #b30000;
+}
+
+.box h2{
+background:#b30000;
 color:white;
+text-align:center;
 padding:10px;
-margin:-15px -15px 15px -15px;
 }
 
-.job{
-padding:10px 0;
-border-bottom:1px solid #ddd;
+.box ul{
+padding:15px 30px;
 }
 
-.btn{
-background:#cc0000;
-color:white;
-padding:6px 12px;
+.box li{
+margin-bottom:10px;
+}
+
+.box a{
 text-decoration:none;
-border-radius:5px;
-margin-left:10px;
-font-size:13px;
+color:#000080;
 }
 
-.btn:hover{
-background:#990000;
+.box a:hover{
+color:red;
 }
 
 footer{
@@ -135,76 +109,32 @@ padding:20px;
 margin-top:20px;
 }
 
-ul{
-list-style:none;
-}
-
-li{
-padding:8px 0;
-border-bottom:1px solid #eee;
-}
-
 @media(max-width:768px){
+.main-grid{
+grid-template-columns:1fr;
+}
+
 header h1{
 font-size:28px;
 }
-nav a{
-display:inline-block;
-margin:5px;
 }
-}
+
 </style>
-
 </head>
 
-<head>
-    <title>Govt Job Updates</title>
-
-    <meta name="google-site-verification" content="IrIb0qRLVF_MsLAuQ" />
-
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C29TSESG8V"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-C29TSESG8V');
-    </script>
-</head>
 <body>
 
 <header>
-<h1>GOVT JOBS UPDATES</h1>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Govt Job Updates</title>
-
-<meta name="google-site-verification" content="rIrbOqRLVF_MsLAuQdp3YInf0KD4ZEET2WhshGc4mYw" />
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C29TSESG8V"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-C29TSESG8V');
-</script>
-
-</head>
-<body>
-<p>Latest Government Jobs, Admit Cards, Results & Notifications</p>
+<h1>GOVT JOB UPDATES</h1>
+<p>Latest Government Jobs, Admit Cards, Results & Exam Updates</p>
 </header>
 
 <nav>
-<a href="#">Home</a>
-<a href="#">Latest Jobs</a>
+<a href="index.html">Home</a>
+<a href="latest-jobs.html">Latest Jobs</a>
 <a href="#">Admit Card</a>
 <a href="#">Results</a>
 <a href="#">Answer Key</a>
-<a href="#">Syllabus</a>
 <a href="#">Contact</a>
 </nav>
 
@@ -214,112 +144,61 @@ gtag('config', 'G-C29TSESG8V');
 
 <div class="container">
 
-<div class="section">
-<h2>Latest Jobs</h2>
-
-<div class="job">
-SSC CGL Recruitment 2026
-<a href="https://ssc.gov.in" target="_blank" class="btn">Apply Now</a>
-</div>
-<ul>
-
-<li>
-<a href="ssc-steno.html">
-SSC Stenographer 2026 🔴 Apply
-</a>
-</li>
-
-<li>
-<a href="bihar-vidhan-parishad.html">
-Bihar Vidhan Parishad LDC / DEO Answer Key 2026 🔴
-</a>
-</li>
-
-</ul>
-
-<div class="job">
-SSC Stenographer Recruitment 2026
-<a href="https://ssc.gov.in" target="_blank" class="btn">Apply</a>
-</div>
-
-<div class="job">
-Railway ALP Vacancy 2026
-<a href="#" class="btn">Apply</a>
-</div>
-
-<div class="job">
-Bihar Police Recruitment 2026
-<a href="#" class="btn">Apply</a>
-</div>
-
-<div class="job">
-UPSC Civil Services 2026
-<a href="#" class="btn">Apply</a>
-</div>
-
-</div>
-
-<div class="section">
-<h2>Admit Card</h2>
-
-<ul>
-<li>SSC Steno Admit Card <a href="#" class="btn">Click Here</a></li>
-<li>Railway Admit Card <a href="#" class="btn">Click Here</a></li>
-<li>BPSC Admit Card <a href="#" class="btn">Click Here</a></li>
-<li>Bihar DEO Admit Card <a href="#" class="btn">Click Here</a></li>
-</ul>
-
-</div>
-
-<div class="section">
-<h2>Results</h2>
-
-<ul>
-<li>SSC Result 2026 <a href="#" class="btn">Click Here</a></li>
-<li>Railway Result <a href="#" class="btn">Click Here</a></li>
-<li>Bihar Board Result <a href="#" class="btn">Click Here</a></li>
-<li>Bihar Vidhan Parishad Result <a href="#" class="btn">Click Here</a></li>
-
 <div class="main-grid">
 
 <div class="box">
 <h2>Results</h2>
 <ul>
 <li><a href="#">SSC CGL Result 2026</a></li>
-<li><a href="#">Railway ALP Result</a></li>
-<li><a href="#">Bihar Police Result</a></li>
-<li><a href="#">BPSC Result</a></li>
-<li><a href="#">SSC Steno Result</a></li>
+<li><a href="#">SSC Steno Result 2026</a></li>
+<li><a href="#">Railway ALP Result 2026</a></li>
+<li><a href="#">Bihar Police Result 2026</a></li>
+<li><a href="#">BPSC Result 2026</a></li>
 </ul>
 </div>
 
 <div class="box">
 <h2>Admit Card</h2>
 <ul>
-<li><a href="#">SSC CGL Admit Card</a></li>
-<li><a href="#">SSC Steno Admit Card</a></li>
-<li><a href="#">Railway Admit Card</a></li>
-<li><a href="#">BPSC Admit Card</a></li>
-<li><a href="#">Bihar Police Admit Card</a></li>
+<li><a href="#">SSC CGL Admit Card 2026</a></li>
+<li><a href="#">SSC Steno Admit Card 2026</a></li>
+<li><a href="#">Railway Admit Card 2026</a></li>
+<li><a href="#">BPSC Admit Card 2026</a></li>
+<li><a href="#">Bihar Police Admit Card 2026</a></li>
 </ul>
 </div>
 
 <div class="box">
 <h2>Latest Jobs</h2>
 <ul>
-<li><a href="ssc-cgl.html">SSC CGL Recruitment 2026</a></li>
-<li><a href="ssc-steno.html">SSC Stenographer 2026</a></li>
-<li><a href="#">RRB ALP Recruitment</a></li>
-<li><a href="#">BPSC Teacher Vacancy</a></li>
-<li><a href="#">UP Police Recruitment</a></li>
+
+<li>
+<a href="ssc-cgl.html">
+SSC CGL Recruitment 2026 (12556 Posts)
+</a>
+</li>
+
+<li>
+<a href="ssc-steno.html">
+SSC Stenographer Recruitment 2026
+</a>
+</li>
+
+<li>
+<a href="bihar-vidhan-parishad.html">
+Bihar Vidhan Parishad LDC / DEO Answer Key 2026
+</a>
+</li>
+
 </ul>
+</div>
 
 </div>
 
 </div>
 
 <footer>
-© 2026 GOVT JOB UPDATES <br>
+© 2026 GOVT JOB UPDATES<br>
 This is a private information website and is not associated with any Government organization.
 </footer>
 
