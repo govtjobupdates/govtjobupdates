@@ -3,26 +3,22 @@
 
 <url>
 <loc>https://govtjobupdates.github.io/govtjobupdates/</loc>
+<priority>1.0</priority>
 </url>
 
 <url>
-<loc>https://govtjobupdates.github.io/govtjobupdates/index.html</loc>
+<loc>https://govtjobupdates.github.io/govtjobupdates/ssc-cgl-2026.html</loc>
+<priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://govtjobupdates.github.io/govtjobupdates/latest-jobs.html</loc>
+<loc>https://govtjobupdates.github.io/govtjobupdates/ssc-stenographer-2026.html</loc>
+<priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://govtjobupdates.github.io/govtjobupdates/ssc-cgl.html</loc>
-</url>
-
-<url>
-<loc>https://govtjobupdates.github.io/govtjobupdates/ssc-steno.html</loc>
-</url>
-
-<url>
-<loc>https://govtjobupdates.github.io/govtjobupdates/bihar-vidhan-parishad.html</loc>
+<loc>https://govtjobupdates.github.io/govtjobupdates/bihar-vidhan-parishad-2026.html</loc>
+<priority>0.9</priority>
 </url>
 
 </urlset>
