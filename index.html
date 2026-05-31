@@ -10,51 +10,7 @@
 
 <style>
 
-<div class="ai-search">
-    <input type="text" id="searchInput" placeholder="AI Search Jobs...">
-    <button onclick="searchJobs()">Search</button>
-</div>
 
-<div id="result"></div>
-
-<script>
-function searchJobs() {
-    let query = document.getElementById("searchInput").value.toLowerCase();
-    let result = document.getElementById("result");
-
-    if(query.includes("ssc cgl")) {
-        result.innerHTML =
-        "<h3>SSC CGL 2026</h3><p>Graduate candidates can apply. Exam date will be updated soon.</p>";
-    }
-    else if(query.includes("gds")) {
-        result.innerHTML =
-        "<h3>India Post GDS 2026</h3><p>10th Pass candidates can apply.</p>";
-    }
-    else if(query.includes("steno")) {
-        result.innerHTML =
-        "<h3>SSC Stenographer 2026</h3><p>12th Pass candidates eligible.</p>";
-    }
-    else {
-        result.innerHTML =
-        "<p>No result found.</p>";
-    }
-}
-</script>
-
-.ai-search{
-    text-align:center;
-    margin:20px;
-}
-
-.ai-search input{
-    width:70%;
-    padding:12px;
-}
-
-.ai-search button{
-    padding:12px 20px;
-    cursor:pointer;
-}
 
 *{
 margin:0;
@@ -228,6 +184,8 @@ function searchJobs() {
 
 <body>
 
+
+
 <header>
 
 <div class="clock" id="clock"></div>
@@ -306,6 +264,52 @@ Results
 <div class="section-title">
 Answer Key
 </div>
+
+<div class="ai-search">
+    <input type="text" id="searchInput" placeholder="AI Search Jobs...">
+    <button onclick="searchJobs()">Search</button>
+</div>
+
+<div id="result"></div>
+
+<script>
+function searchJobs() {
+    let query = document.getElementById("searchInput").value.toLowerCase();
+    let result = document.getElementById("result");
+
+    if(query.includes("ssc cgl")) {
+        result.innerHTML =
+        "<h3>SSC CGL 2026</h3><p>Graduate candidates can apply. Exam date will be updated soon.</p>";
+    }
+    else if(query.includes("gds")) {
+        result.innerHTML =
+        "<h3>India Post GDS 2026</h3><p>10th Pass candidates can apply.</p>";
+    }
+    else if(query.includes("steno")) {
+        result.innerHTML =
+        "<h3>SSC Stenographer 2026</h3><p>12th Pass candidates eligible.</p>";
+    }
+    else {
+        result.innerHTML =
+        "<p>No result found.</p>";
+    }
+}
+</script>
+
+.ai-search{
+    text-align:center;
+    margin:20px;
+}
+
+.ai-search input{
+    width:70%;
+    padding:12px;
+}
+
+.ai-search button{
+    padding:12px 20px;
+    cursor:pointer;
+}
 
 <div class="box">
 <ul>
