@@ -1,14 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>India Post GDS Recruitment 2026</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f2f2f2;
+}
+
+header{
+background:linear-gradient(90deg,#ff1493,#cc0000);
+color:white;
+text-align:center;
+padding:25px;
+}
+
+header h1{
+font-size:36px;
+}
+
+nav{
+background:#990033;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-weight:bold;
+}
+
+.container{
+width:95%;
+margin:auto;
+background:white;
+padding:15px;
+margin-top:15px;
+}
+
+.main-title{
+background:#cc0000;
+color:white;
+text-align:center;
+padding:20px;
+border-radius:10px;
+font-size:30px;
+font-weight:bold;
+margin-bottom:15px;
+}
+
+.short-info{
+line-height:30px;
+margin-bottom:15px;
+}
+
+.section-title{
+background:green;
+color:white;
+text-align:center;
+padding:10px;
+font-size:22px;
+font-weight:bold;
+margin-top:15px;
+margin-bottom:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table,th,td{
+border:1px solid #333;
+}
+
+th{
+background:#8b004f;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+}
+
+ul{
+padding-left:25px;
+line-height:30px;
+}
+
+.links{
+text-align:center;
+}
+
+.links a{
+display:inline-block;
+background:#0066cc;
+color:white;
+padding:12px 20px;
+margin:5px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+.question-box{
+border:1px solid #333;
+padding:15px;
+line-height:30px;
+}
+
+.question-box hr{
+margin:10px 0;
+}
+
+.notice-box{
+background:#fff3cd;
+border:1px solid orange;
+padding:15px;
+line-height:30px;
+font-weight:bold;
+color:red;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>GOVT JOB UPDATES</h1>
+<p>Latest Government Jobs, Admit Cards, Results & Notifications</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="#">Latest Jobs</a>
+<a href="#">Admit Card</a>
+<a href="#">Results</a>
+<a href="#">Answer Key</a>
+<a href="#">Contact</a>
+</nav>
+
 <div class="container">
 
-<h1 class="main-title">
+<div class="main-title">
 INDIA POST GDS RECRUITMENT 2026
-</h1>
+</div>
 
 <p class="short-info">
-India Post Department has released the notification for
-Gramin Dak Sevak (GDS) Recruitment 2026.
-Candidates can apply online for BPM, ABPM & Dak Sevak Posts.
-Read official notification before applying.
+India Post Department has released the notification for Gramin Dak Sevak (GDS) Recruitment 2026.
+Candidates can apply online for BPM, ABPM and Dak Sevak Posts.
+Read official notification carefully before applying.
 </p>
 
 <div class="section-title">
@@ -24,12 +189,12 @@ Important Dates
 
 <tr>
 <td>Notification Released</td>
-<td>Coming Soon</td>
+<td>Update Soon</td>
 </tr>
 
 <tr>
 <td>Apply Online Start</td>
-<td>Coming Soon</td>
+<td>Update Soon</td>
 </tr>
 
 <tr>
@@ -48,7 +213,6 @@ Important Dates
 </tr>
 
 </table>
-
 
 <div class="section-title">
 Application Fee
@@ -73,7 +237,6 @@ Application Fee
 
 </table>
 
-
 <div class="section-title">
 Age Limit
 </div>
@@ -91,7 +254,6 @@ Age Limit
 </tr>
 
 </table>
-
 
 <div class="section-title">
 GDS Vacancy Details
@@ -121,7 +283,6 @@ GDS Vacancy Details
 
 </table>
 
-
 <div class="section-title">
 Eligibility
 </div>
@@ -135,52 +296,20 @@ Eligibility
 
 <tr>
 <td>GDS</td>
-<td>
-10th Pass With Mathematics &
-English Subject
-</td>
+<td>10th Pass With Mathematics And English Subject</td>
 </tr>
 
 </table>
-
 
 <div class="section-title">
 Selection Process
 </div>
 
 <ul>
-
 <li>10th Marks Merit List</li>
-
 <li>Document Verification</li>
-
 <li>Medical Verification</li>
-
 </ul>
-
-
-<div class="section-title">
-How To Fill India Post GDS Form
-</div>
-
-<ul>
-
-<li>Visit India Post Official Website.</li>
-
-<li>Complete Registration.</li>
-
-<li>Fill Online Form Carefully.</li>
-
-<li>Upload Required Documents.</li>
-
-<li>Pay Application Fee.</li>
-
-<li>Submit Final Form.</li>
-
-<li>Take Printout For Future Use.</li>
-
-</ul>
-
 
 <div class="section-title">
 Important Links
@@ -188,28 +317,19 @@ Important Links
 
 <div class="links">
 
-<a href="#">
-🔴 Apply Online
-</a>
+<a href="#">🔴 Apply Online</a>
 
-<a href="#">
-📄 Notification
-</a>
+<a href="#">📄 Notification</a>
 
-<a href="#">
-📋 Merit List
-</a>
+<a href="#">📋 Merit List</a>
 
-<a href="#">
-🎫 Result
-</a>
+<a href="#">🎫 Result</a>
 
-<a href="#">
+<a href="https://indiapostgdsonline.gov.in">
 🌐 Official Website
 </a>
 
 </div>
-
 
 <div class="section-title">
 Important Questions
@@ -217,56 +337,30 @@ Important Questions
 
 <div class="question-box">
 
-<p>
-<b>Q.</b> GDS Qualification Kya Hai?
-</p>
-
-<p>
+<b>Q.</b> GDS Qualification Kya Hai?<br>
 <b>Ans.</b> 10th Pass.
-</p>
 
 <hr>
 
-<p>
-<b>Q.</b> GDS Age Limit Kya Hai?
-</p>
-
-<p>
+<b>Q.</b> GDS Age Limit Kya Hai?<br>
 <b>Ans.</b> 18 To 40 Years.
-</p>
 
 <hr>
 
-<p>
-<b>Q.</b> GDS Selection Kaise Hoga?
-</p>
-
-<p>
-<b>Ans.</b> Merit List Based Selection.
-</p>
+<b>Q.</b> Selection Kaise Hoga?<br>
+<b>Ans.</b> Merit List Basis Par.
 
 <hr>
 
-<p>
-<b>Q.</b> GDS Merit List Kab Aayega?
-</p>
-
-<p>
-<b>Ans.</b> Application Process Complete Hone Ke Baad.
-</p>
+<b>Q.</b> Merit List Kab Aayegi?<br>
+<b>Ans.</b> Application Process Ke Baad.
 
 <hr>
 
-<p>
-<b>Q.</b> Kya Date Change Ho Sakti Hai?
-</p>
-
-<p>
+<b>Q.</b> Kya Date Change Ho Sakti Hai?<br>
 <b>Ans.</b> Haan, Official Notice Ke Through Date Change Ho Sakti Hai.
-</p>
 
 </div>
-
 
 <div class="section-title">
 Important Notice
@@ -274,13 +368,27 @@ Important Notice
 
 <p class="notice-box">
 
-⚠ Candidates Are Advised To Read Official Notification
-Before Applying.
+⚠ Form Bharne Se Pahle India Post Ki Official Website Se Notification Jarur Check Karein.
 
-Application Date, Merit List Date,
-Vacancy Details Aur Other Information
-Time To Time Change Ho Sakti Hai.
+Vacancy, Merit List, Result, Age Limit, Selection Process Aur Dates Samay-Samay Par Change Ho Sakti Hain.
 
 </p>
 
 </div>
+
+<footer>
+
+<p>
+Disclaimer: Candidates Are Advised To Verify All Information From Official Website Before Applying.
+</p>
+
+<br>
+
+<p>
+© 2026 GOVT JOB UPDATES
+</p>
+
+</footer>
+
+</body>
+</html>
